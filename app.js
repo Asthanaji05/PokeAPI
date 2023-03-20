@@ -55,17 +55,17 @@ form.addEventListener('submit', function(event) {
 
 // JavaScript code for share on linkedin
 function shareOnLinkedIn() {
-  var url = "https://example.com"; // Replace with your URL
-  var title = "My LinkedIn share"; // Replace with your title
-  var summary = "Check out this link"; // Replace with your summary
-  var source = "Asthanaji05"; // Replace with your source
+  var url = "https://asthanaji05.github.io/PokeAPI/"; // Replace with your URL
+  var title = "Check Out The Pokedex Website I found"; // Replace with your title
+  var summary = "https://asthanaji05.github.io/PokeAPI/"; // Replace with your summary
+  var source = "https://github.com/Asthanaji05"; // Replace with your source
   var linkedinUrl = "https://www.linkedin.com/shareArticle?url=" + encodeURIComponent(url) + "&title=" + encodeURIComponent(title) + "&summary=" + encodeURIComponent(summary) + "&source=" + encodeURIComponent(source);
   window.open(linkedinUrl);
 }
 
 // JavaScript code for share on  whatsapp
 function shareLink() {
-  var url = "https://example.com"; // Replace with your URL
+  var url = "https://asthanaji05.github.io/PokeAPI/"; // Replace with your URL
   var message = "Check out this link: " + url;
   var whatsappUrl = "https://wa.me/?text=" + encodeURIComponent(message);
   window.open(whatsappUrl);
@@ -74,7 +74,7 @@ function shareLink() {
 
 // JavaScript code for share on koo
 function shareOnKoo() {
-  var url = "https://example.com"; // Replace with your URL
+  var url = "https://asthanaji05.github.io/PokeAPI/"; // Replace with your URL
   var kooUrl = "https://www.kooapp.com/create-post?text=" + encodeURIComponent(url);
   window.open(kooUrl);
 }
